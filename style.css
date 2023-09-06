@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background: #4375b6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    height: 36vw;
+    width: 24vw;
+    background-color: rgb(237, 200, 140);
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.card h1{
+ color: rgb(0, 0, 0);
+  margin-bottom: 50px;
+  font-size: 40px;
+ 
+}
+.card h3{
+    color: red;
+    font-size: 40px;
+    margin: 5px;
+}
+.card p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.card img{
+    height: 55%;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+
+}
+
+.card button{
+    padding: 20px 40px 20px 40px;
+    font-size: 24px;
+    font-weight: 700;
+    background: #2b558d;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+
